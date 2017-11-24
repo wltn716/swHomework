@@ -23,19 +23,19 @@ public class swe {
 			switch(func) {
 					case 1: break;
 					case 2: 
-						do {
-							Calculator calculator = new Calculator();
-							System.out.println("a. 사칙연산");
-							System.out.println("b. 단위변환");
-							System.out.println("c. 돌아가기");
-							calculator.selected = scan.next();
-							if(calculator.selected.equals("a") || calculator.selected.equals("b")) { 
-								calculator.calculating();
-								Scanner scan1 = new Scanner(System.in);
-								String clear = scan1.nextLine();
-							}
-							else break;							
-						}while(true);
+//						do {
+//							Calculator calculator = new Calculator();
+//							System.out.println("a. 사칙연산");
+//							System.out.println("b. 단위변환");
+//							System.out.println("c. 돌아가기");
+//							calculator.selected = scan.next();
+//							if(calculator.selected.equals("a") || calculator.selected.equals("b")) { 
+//								calculator.calculating();
+//								Scanner scan1 = new Scanner(System.in);
+//								String clear = scan1.nextLine();
+//							}
+//							else break;							
+//						}while(true);
 						
 					case 3: break;
 					case 4: 
